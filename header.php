@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>">
-    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php  bloginfo('template_url')?>/css/bootstrap.min.css">
 
     <title><?php  bloginfo('name');?></title>
   </head>
