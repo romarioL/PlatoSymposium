@@ -58,15 +58,13 @@ function symposium_register_required_plugins() {
 	 * If the source is NOT from the .org repo, then source is also required.
 	 */
 	$plugins = array(
-
 		// This is an example of how to include a plugin bundled with a theme.
 		array(
 
-			'name' => 'WP Responsive Recent Post Slider/Carousel',
-			'slug' => 'wp-responsive-recent-post-slider',
+			'name' => 'Post Slider and Carousel with Widget',
+			'slug' => 'post-slider-and-carousel',
 			'required' => true
 		)
-
 	);
 
 	/*

@@ -26,13 +26,12 @@
 	     ?>
 
 </div>
-<div class="bg-info">
+<div>
 	<?php 
 	$design = get_theme_mod('set_slider_option');
 	$limit = get_theme_mod('set_slider_limit');
-	echo do_shortcode('[recent_post_slider design="design-' . $design .'" limit="' . $limit . '"]');
+	echo do_shortcode('[psac_post_slider limit=”'. $limit .' design=”design-' . $design .'″″]');
 	?>
-
 </div>
 
 <?php get_footer(); ?>

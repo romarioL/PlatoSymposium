@@ -58,6 +58,6 @@ function theme_slug_sanitize_callback($input, $setting){
 	$input = sanitize_key($input);
 	$choices = $setting->manager->get_control($setting->id)->choices;
 
-	return (array_key_exists($input, $choices) ? $input : $setting->default);
+	return (array_key_exists($input, $choices) ? $input : $setting->default );
 
 }
