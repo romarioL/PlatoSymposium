@@ -19,17 +19,10 @@
 	      <?php  get_template_part('template-parts/content', 'home'); ?>
 <?php  endwhile;
         else: 
-
         	?>
-
         	<p>Nenhuma postagem disponível</p>
-
-
-
         <?php
-
         endif;
-
         ;?>
 </div>
 
