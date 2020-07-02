@@ -60,9 +60,13 @@ function symposium_register_required_plugins() {
 	$plugins = array(
 		// This is an example of how to include a plugin bundled with a theme.
 		array(
-
 			'name' => 'Post Slider and Carousel with Widget',
 			'slug' => 'post-slider-and-carousel',
+			'required' => true
+		),
+		array(
+			'name' => 'Pipfrosch jQuery',
+			'slug' => 'pipfrosch-jquery',
 			'required' => true
 		)
 	);
