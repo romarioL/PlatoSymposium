@@ -26,17 +26,13 @@
 	     ?>
 
 </div>
+<div class="bg-info">
+	<?php 
+	$design = get_theme_mod('set_slider_option');
+	$limit = get_theme_mod('set_slider_limit');
+	echo do_shortcode('[recent_post_slider design="design-' . $design .'" limit="' . $limit . '"]');
+	?>
 
-<div class="row articles container mr-auto ml-auto">
-	<?php if(have_posts()): while(have_posts()): the_post() ?>
-	      <?php  get_template_part('template-parts/content', 'home'); ?>
-<?php  endwhile;
-        else: 
-        	?>
-        	<p>Nenhuma postagem disponível</p>
-        <?php
-        endif;
-        ;?>
 </div>
 
 <?php get_footer(); ?>

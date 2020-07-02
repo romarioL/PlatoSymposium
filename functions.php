@@ -1,6 +1,10 @@
 <?php
+require_once(dirname(__FILE__) . '/inc/bs4navwalker.php');
+require_once(dirname(__FILE__) . '/inc/class-tgm-plugin-activation.php');
+require_once(dirname(__FILE__) . '/inc/required-plugins.php');
+require_once(dirname(__FILE__) . '/inc/customizer.php');
 
-require_once('bs4navwalker.php');
+
 
 
 function load_scripts(){
