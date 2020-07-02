@@ -2,8 +2,6 @@
 
 require_once('bs4navwalker.php');
 
-register_nav_menu('top', 'Top menu');
-
 
 function load_scripts(){
 	wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '4.3.1', true);
@@ -12,6 +10,15 @@ function load_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'load_scripts');
+
+
+
+function symposium_config(){
+	register_nav_menu('top', 'Top menu');
+}
+
+ add_action('after_setup_theme', 'symposium_config');
+
 
 if ( function_exists('register_sidebar') )
   register_sidebar(array(
