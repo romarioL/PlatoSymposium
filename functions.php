@@ -33,7 +33,7 @@ function symposium_config(){
 
 
 		register_sidebar(array(
-			'id' => 'home-text1'
+			'id' => 'home-text1',
 			'name' => 'Home text 1',
 			'before_widget' => '<div class="col-lg-4 col-md-12 text-banner">',
 			'after_widget'=> '</div>',
@@ -42,7 +42,7 @@ function symposium_config(){
 		));
 
 		register_sidebar(array(
-			'id' => 'home-text2'
+			'id' => 'home-text2',
 			'name' => 'Home text 2',
 			'before_widget' => '<div class="col-lg-4 col-md-12 text-banner">',
 			'after_widget'=> '</div>',
@@ -51,7 +51,7 @@ function symposium_config(){
 		));
 
 		register_sidebar(array(
-			'id' => 'home-text3'
+			'id' => 'home-text3',
 			'name' => 'Home text 3',
 			'before_widget' => '<div class="col-lg-4 col-md-12 text-banner">',
 			'after_widget'=> '</div>',
