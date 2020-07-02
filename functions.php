@@ -30,6 +30,35 @@ function symposium_config(){
 		    'after_title' => '</h6>',
 		  )
 		);
+
+
+		register_sidebar(array(
+			'id' => 'home-text1'
+			'name' => 'Home text 1',
+			'before_widget' => '<div class="col-lg-4 col-md-12 text-banner">',
+			'after_widget'=> '</div>',
+			'before_title' => '<h6 class="text-banner-title">',
+			'after_title' => '</h6>'
+		));
+
+		register_sidebar(array(
+			'id' => 'home-text2'
+			'name' => 'Home text 2',
+			'before_widget' => '<div class="col-lg-4 col-md-12 text-banner">',
+			'after_widget'=> '</div>',
+			'before_title' => '<h6 class="text-banner-title">',
+			'after_title' => '</h6>'
+		));
+
+		register_sidebar(array(
+			'id' => 'home-text3'
+			'name' => 'Home text 3',
+			'before_widget' => '<div class="col-lg-4 col-md-12 text-banner">',
+			'after_widget'=> '</div>',
+			'before_title' => '<h6 class="text-banner-title">',
+			'after_title' => '</h6>'
+		));
+
  }
 
  add_filter('widgets_init', 'symposium_sidebars');
