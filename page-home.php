@@ -30,6 +30,7 @@
 	<?php 
 	$design = get_theme_mod('set_slider_option');
 	$limit = get_theme_mod('set_slider_limit');
+	echo do_shortcode('[recent_post_slider design="' . $design .'" limit="'. $limit.'"]');
 	?>
 </div>
 

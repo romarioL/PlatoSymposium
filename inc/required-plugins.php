@@ -63,6 +63,11 @@ function symposium_register_required_plugins() {
 			'name' => 'Trending/Popular Post Slider and Widget',
 			'slug' => 'wp-trending-post-slider-and-widget',
 			'required' => true
+		),
+		array(
+			'name' => 'WP Responsive Recent Post Slider/Carousel',
+			'slug' => 'wp-responsive-recent-post-slider',
+			'required' => true
 		)
 	);
 
