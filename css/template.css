@@ -65,6 +65,18 @@
    margin-bottom: 150px;
 }
 
+.link-primary{
+	background-color: #FFA07A;
+	padding: 8px;
+	color: white;
+	font-weight: bold;
+}
+
+.link-primary:hover {
+	color:  #fcff00;
+	text-decoration: none;
+}
+
 .footer {
 	min-height: 150px;
 	background-size: cover;
