@@ -3,20 +3,17 @@
 	<?php if(is_active_sidebar('home-text1')):
 			dynamic_sidebar('home-text1');
 	     endif;
-
 	     ?>
 
 	  <?php if(is_active_sidebar('home-text2')):
-			dynamic_sidebar('home-text2');
-	     endif;
-
+			dynamic_sidebar('home-text2');	     
+            endif;
 	     ?>
 
 
 	   <?php if(is_active_sidebar('home-text3')):
 			dynamic_sidebar('home-text3');
 	        endif;
-
 	     ?>
 
 </div>
