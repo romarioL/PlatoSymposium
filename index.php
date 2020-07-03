@@ -19,8 +19,8 @@
 			</div>
 			<?php next_posts_link('Anteriores'); ?><?php previous_posts_link('Próximos')?>
 		</div>
-		<div class=" col-md-4 mt-5 col-sm-12">
-		<div class="row">
+		<div class="col-md-4 mt-5 col-sm-12">
+		<div class="sidebar row">
 		<?php if(is_active_sidebar('posts-sidebar')):
 			      dynamic_sidebar('posts-sidebar');
 			  endif;

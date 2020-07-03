@@ -68,27 +68,27 @@ function symposium_config(){
 		register_sidebar(array(
 			'id' => 'posts-sidebar',
 			'name' => 'Posts sidebar',
-			'before_widget' => '<div class="col-sm-12 text-banner">',
+			'before_widget' => '<div class="col-sm-12 text-sidebar">',
 			'after_widget' => '</div>',
-			'before_title' => '<h6 class="text-banner-title">',
+			'before_title' => '<h6 class="text-sidebar-title">',
 			'after_title' => '</h6>'
 		));
 
 		register_sidebar(array(
 			'id' => 'posts-sidebar2',
 			'name' => 'Posts sidebar 2',
-			'before_widget' => '<div class=" col-sm-12 text-banner">',
+			'before_widget' => '<div class=" col-sm-12 text-sidebar">',
 			'after_widget' => '</div>',
-			'before_title' => '<h6 class="text-banner-title">',
+			'before_title' => '<h6 class="text-sidebar-title">',
 			'after_title' => '</h6>'
 		));
 
 		register_sidebar(array(
 			'id' => 'posts-sidebar3',
 			'name' => 'Posts sidebar 3',
-			'before_widget' => '<div class=" col-sm-12 text-banner">',
+			'before_widget' => '<div class=" col-sm-12 text-sidebar">',
 			'after_widget' => '</div>',
-			'before_title' => '<h6 class="text-banner-title">',
+			'before_title' => '<h6 class="text-sidebar-title">',
 			'after_title' => '</h6>'
 		));
 

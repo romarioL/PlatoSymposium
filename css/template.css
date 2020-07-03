@@ -5,6 +5,44 @@
  .popular-post-slider{
  	height: 400px;
  }
+
+ .sidebar{
+ 	background-color: #FF6347;
+ 	padding: 40px;
+ 	color: white;
+ 	margin: 10px;
+ 	border: solid 10px #FFA07A;
+ }
+
+ .sidebar .text-sidebar{
+ 	padding: 10px 0 10px 0;
+ }
+
+ .sidebar .text-sidebar-title{
+ 	font-size: 25px;
+ }
+
+ .sidebar .text-sidebar > a {
+ 	font-size: 20px;
+ }
+
+
+ .sidebar ul{
+ 	list-style: none;
+ 	list-style-type: none;
+ 	padding: 0;
+ }
+
+
+ .sidebar ul a{
+ 	color: white;
+ }
+
+ .sidebar ul a:hover {
+    color: #fcff00;
+    text-decoration: none;
+ }
+
 .banner {
 	background-image: url(../img/antinous.jpeg);
 	height: 700px;
