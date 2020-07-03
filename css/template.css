@@ -58,6 +58,17 @@
 
 .article {
 	margin: 30px;
+	text-align: justify;
+	padding: 20px;
+}
+
+.link-article{
+	color: #FF6347;
+}
+
+.link-article:hover{
+	color: #FFA07A;
+	text-decoration: none;
 }
 
 .articles {
