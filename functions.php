@@ -62,6 +62,15 @@ function symposium_config(){
 			'after_title' => '</h6>'
 		));
 
+		register_sidebar(array(
+			'id' => 'posts-sidebar',
+			'name' => 'Posts sidebar',
+			'before_widget' => '<div class="text-banner">',
+			'after_widget' => '</div>',
+			'before_title' => '<h6 class="text-banner-title">',
+			'after_title' => '</h6>'
+		));
+
  }
 
  add_filter('widgets_init', 'symposium_sidebars');
