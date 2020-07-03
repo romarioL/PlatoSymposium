@@ -55,6 +55,7 @@
 
 .text-banner-title, .article-title {
    font-weight: bold;
+   font-size: 32px;
 }
 
 .article {
