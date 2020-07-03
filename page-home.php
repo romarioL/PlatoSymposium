@@ -26,11 +26,10 @@
 	     ?>
 
 </div>
-<div>
+<div class="slider">
 	<?php 
 	$design = get_theme_mod('set_slider_option');
 	$limit = get_theme_mod('set_slider_limit');
-	echo do_shortcode('[psac_post_slider limit=”'. $limit .' design=”design-' . $design .'″″]');
 	?>
 </div>
 

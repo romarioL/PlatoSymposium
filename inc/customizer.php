@@ -3,6 +3,29 @@
 function symposium_customizer($wp_customize) {
 
 	$wp_customize->add_section(
+		'sec_copyright', array(
+			'title' => 'Copyight',
+			'description' => 'Copyright'
+		)
+	);
+
+	$wp_customize->add_setting(
+		'sec_copyright', array(
+			'type' => 'theme_mod',
+			 'default' => 'My name is...',
+			 'sanitize_callback' => 'wp_filter_nohtml_kses'
+		)
+	);
+
+	$wp_customize->add_control(
+		'sec_copyright', array(
+			'label' => 'Copyright Text',
+			'section' => 'sec_copyright',
+			'type' => 'text'
+		)
+	);
+
+	$wp_customize->add_section(
 		'sec_slider', array(
 			'title' => 'Slider',
 			'description' => 'Section slider'

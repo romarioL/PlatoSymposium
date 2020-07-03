@@ -6,7 +6,7 @@
  		<?php dynamic_sidebar('Footer'); ?>
  	</div>
  	<div class="copyright">
- 		<h6>Site feito por romário sousa!</h6>
+ 		<h6><?php  echo get_theme_mod('sec_copyright');?></h6>
  	</div>
  </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
