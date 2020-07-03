@@ -1,6 +1,10 @@
 * {
  	font-family: 'Stylish', sans-serif;
  }
+
+ .popular-post-slider{
+ 	height: 400px;
+ }
 .banner {
 	background-image: url(../img/antinous.jpeg);
 	height: 700px;
