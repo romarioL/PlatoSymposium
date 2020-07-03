@@ -67,7 +67,7 @@ function symposium_config(){
 		register_sidebar(array(
 			'id' => 'posts-sidebar',
 			'name' => 'Posts sidebar',
-			'before_widget' => '<div class=" col-sm-12 text-banner">',
+			'before_widget' => '<div class="col-sm-12 text-banner">',
 			'after_widget' => '</div>',
 			'before_title' => '<h6 class="text-banner-title">',
 			'after_title' => '</h6>'
