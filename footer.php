@@ -7,9 +7,11 @@
  			       dynamic_sidebar('Footer');
  			   endif; ?>
  	</div>
- 	<div class="copyright">
- 		<h6><?php  echo get_theme_mod('sec_copyright');?></h6>
- 	</div>
+ 	<div class="row">
+	 	<div class="copyright col-sm-12">
+	 		<h6><?php  echo get_theme_mod('sec_copyright');?></h6>
+	 	</div>
+   </div>
  </div>
   </body>
 </html>

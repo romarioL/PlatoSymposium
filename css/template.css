@@ -75,7 +75,18 @@
 
 .footer .widget ul {
 	list-style: none;
+	list-style-type: none;
+	padding: 0;
 }
+
+.footer .widget h6{
+	font-size: 25px;
+}
+
+.footer .widget > a{
+    font-size: 20px;
+}
+
 .footer .widget ul li{
 	margin-left: 0;
 }
@@ -91,5 +102,7 @@
 
 .footer .copyright {
 	margin-top: 50px;
+	height: 25px;
+	text-align: center;
 }
 
