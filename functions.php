@@ -32,8 +32,7 @@ function symposium_config(){
 		    'after_widget' => '</div>',
 		    'before_title' => '<h6>',
 		    'after_title' => '</h6>',
-		  )
-		);
+		  ));
 
 
 		register_sidebar(array(
