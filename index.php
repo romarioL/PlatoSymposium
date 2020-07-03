@@ -8,11 +8,21 @@
 			<?php  endwhile; endif;?>
 			</div>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 mt-5">
+		<div class="row">
 		<?php if(is_active_sidebar('posts-sidebar')):
 			      dynamic_sidebar('posts-sidebar');
 			  endif;
 		 ?>
+		 <?php if(is_active_sidebar('posts-sidebar2')):
+			      dynamic_sidebar('posts-sidebar2');
+			  endif;
+		 ?>
+		 <?php if(is_active_sidebar('posts-sidebar3')):
+			      dynamic_sidebar('posts-sidebar3');
+			  endif;
+		 ?>
+		</div>
 		</div>
 	</div>
 </div>
