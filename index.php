@@ -1,5 +1,11 @@
 <?php  get_header();?>
 <div class="container">
+	<?php
+	$design = get_theme_mod('set_popular_posts_option');
+	$limit = get_theme_mod('set_popular_posts_limit');
+	$viewBy =  get_theme_mod('set_popular_posts_counting_option');
+	echo do_shortcode('[wtpsw_popular_post design="design-'.$design.'" limit="'.$limit.'" view_by="'.$viewBy.'"]'); 
+	?>
 	<div class="row">
 		<div class="col-md-8 com-sm-12">
 			<div class="row articles container mr-auto ml-auto">
