@@ -200,5 +200,14 @@
  	text-decoration: none;
  }
 
+ .sidebar .gallery{
+ 	max-width: 100%;
+ }
+
+ .sidebar .gallery .gallery-item  img{
+ 	width: 100px;
+ 	height: auto;
+ }
+
 
 
