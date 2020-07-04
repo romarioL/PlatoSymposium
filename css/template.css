@@ -90,6 +90,50 @@
 	text-decoration: none;
 }
 
+.calendar_wrap {
+	background-color: #77DD77;
+	width: 230px;
+	padding: 16px;
+}
+
+.wp-calendar-table{
+	border-spacing: 2px;
+	border-collapse: separate;
+}
+
+.wp-calendar-table th{
+     background-color: #FF6347;
+     margin-left: 20px;
+     border-radius: 50%;
+     padding: 7px;
+     text-align: center;
+}
+
+.wp-calendar-table td{
+     background-color: #FF6347;
+     margin-left: 20px;
+     border-radius: 50%;
+     padding: 2px;
+     text-align: center;
+}
+
+.wp-calendar-table td a{
+	color:  #fcff00;
+}
+
+.wp-calendar-table td a:hover{
+	text-decoration: none;
+}
+
+.wp-calendar-table td.pad{
+	background-color: transparent;
+}
+
+.wp-calendar-table caption{
+	color: white;
+	font-weight: bold;
+}
+
 .footer {
 	min-height: 150px;
 	background-size: cover;
