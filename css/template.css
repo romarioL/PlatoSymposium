@@ -143,6 +143,7 @@
 	color: white;
 }
 
+
 .footer .widget ul {
 	list-style: none;
 	list-style-type: none;
@@ -165,8 +166,8 @@
 	color: white;
 }
 
-.footer .widget ul li a{
-	color: white;
+.footer .widget ul li a:hover{
+	color: #fcff00;
 	text-decoration: none;
 }
 
@@ -209,6 +210,24 @@
  	width: 100px;
  	height: auto;
  }
+
+ .sidebar .gallery .gallery-item dd{
+ 	font-size: 8px;
+ 	text-align: center;
+ 	padding: 6px;
+ }
+
+ .widget .gallery .gallery-item  img{
+ 	width: 100px;
+ 	height: auto;
+ }
+
+ .widget .gallery .gallery-item dd{
+ 	font-size: 8px;
+ 	text-align: center;
+ 	padding: 6px;
+ }
+
 
 
 
