@@ -93,6 +93,7 @@ ul.post-categories{
 
 ul.post-categories li{
 	margin-top: 0;
+	display: inline;
 }
 
 .link-primary{
