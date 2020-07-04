@@ -79,6 +79,13 @@
    margin-bottom: 150px;
 }
 
+ul.post-categories{
+	list-style: none;
+	list-style-type: none;
+	padding: 0;
+	display: inline;
+}
+
 .link-primary{
 	background-color: #FFA07A;
 	padding: 8px;
