@@ -10,7 +10,7 @@
 				</div>
 		</div>
 		<div class="col-md-4 col-sm-12">
-			<div class="row">
+			<div class="sidebar row">
 				<?php if(is_active_sidebar('posts-sidebar')):
 					      dynamic_sidebar('posts-sidebar');
 					  endif;
