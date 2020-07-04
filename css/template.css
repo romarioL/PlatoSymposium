@@ -98,6 +98,7 @@ ul.post-categories li{
 .link-primary{
 	background-color: #FFA07A;
 	padding: 8px;
+	margin: 3px;
 	color: white;
 	font-weight: bold;
 }
