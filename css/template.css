@@ -191,3 +191,14 @@
     outline: 0;
 }
 
+ .tagcloud a.tag-cloud-link{
+ 	color: white;
+ }
+
+ .tagcloud a.tag-cloud-link:hover{
+    color: #fcff00;
+ 	text-decoration: none;
+ }
+
+
+
