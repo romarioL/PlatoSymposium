@@ -79,11 +79,20 @@
    margin-bottom: 150px;
 }
 
+.article > p{
+	margin-bottom: 0;
+}
+
 ul.post-categories{
 	list-style: none;
 	list-style-type: none;
 	padding: 0;
 	display: inline;
+	margin-top: 0;
+}
+
+ul.post-categories li{
+	margin-top: 0;
 }
 
 .link-primary{
