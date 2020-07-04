@@ -175,3 +175,19 @@
 	text-align: center;
 }
 
+.search-field {
+	margin-bottom: 15px;
+	border: none;
+	height: 35px;
+}
+
+.search-field:hover {
+	border: none;
+}
+
+.search-field:focus{
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
