@@ -23,6 +23,7 @@ function symposium_config(){
 	register_nav_menu('top', 'Top menu');
 	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails');
+	add_theme_support('post-formats', array('video', 'image'));
 }
 
  add_action('after_setup_theme', 'symposium_config');
