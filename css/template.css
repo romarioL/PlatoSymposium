@@ -156,9 +156,12 @@ ul.post-categories li{
 .footer {
 	min-height: 150px;
 	background-size: cover;
-	background-color: black;
-	padding: 30px;
+	background-color: #FF6347;
 	color: white;
+}
+
+.footer .widget{
+	padding: 25px;
 }
 
 
@@ -190,9 +193,12 @@ ul.post-categories li{
 }
 
 .footer .copyright {
-	margin-top: 50px;
-	height: 25px;
+	margin: 50px 0 0 0;
+	height: 100px;
 	text-align: center;
+	background-color: #FFA07A;
+	padding: 20px;
+	width: 100%;
 }
 
 .search-field {
