@@ -142,11 +142,9 @@ ul.post-categories{
 	list-style-type: none;
 	padding: 0;
 	display: inline;
-	margin-top: 0;
 }
 
 ul.post-categories li{
-	margin-top: 0;
 	display: inline;
 }
 
