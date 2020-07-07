@@ -22,6 +22,12 @@
  	color: white;
  }
 
+ a.nav-link {
+
+	margin-left: 20px;
+
+ }
+
  .navbar-light 
  .navbar-nav 
  .active>.nav-link, 
