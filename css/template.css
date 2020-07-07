@@ -48,6 +48,10 @@
      color: #fcff00;
  }
 
+ .navbar-brand{
+	 margin-right: 50px;
+ }
+
  .popular-post-slider{
  	height: 400px;
  }
