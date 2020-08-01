@@ -25,6 +25,11 @@ function symposium_config(){
 	add_theme_support('post-thumbnails');
 	add_theme_support('post-formats', array('video', 'image'));
 	add_theme_support('custom-logo', array('height' => 110, 'width' => 110));
+	$defaults = array(
+		'default-color'          => 'ffffff',
+		'default-image'          => '',
+	);
+	add_theme_support( 'custom-background', $defaults );
 }
 
  add_action('after_setup_theme', 'symposium_config');
