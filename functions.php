@@ -113,5 +113,11 @@ add_filter('previous_posts_link_attributes', 'posts_link_attributes');
 function posts_link_attributes() {
  	return 'class="link-primary mb-5"';
  }
+ function symposium_theme_add_editor_styles() {
+    add_editor_style( 'css/template.css' );
+}
+
+add_action( 'admin_init', 'symposium_theme_add_editor_styles' );
+
 
  
