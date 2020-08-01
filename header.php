@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
   </head>
   <?php wp_head(); ?>
-  <body>
+  <body <?php body_class(); ?>>
 
 
    <nav class="navbar navbar-expand-md navbar-light bg-faded">
@@ -32,6 +32,5 @@
 	   ?>
 	</nav>
 
-	<div class=" col col-lg-12 col-sm-12 banner"></div>
-
+	<div class=" col col-lg-12 col-sm-12 banner" >></div>
 
