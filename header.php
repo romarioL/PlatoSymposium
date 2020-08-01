@@ -40,5 +40,6 @@
 	   ?>
 	</nav>
 
-	<div class=" col col-lg-12 col-sm-12 banner" >></div>
+<!--	<div class=" col col-lg-12 col-sm-12 banner" >></div> -->
 
+<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />

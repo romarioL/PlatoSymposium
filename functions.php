@@ -30,7 +30,14 @@ function symposium_config(){
 		'default-image'          => '',
 	);
 	add_theme_support( 'custom-background', $defaults );
-    add_theme_support( 'automatic-feed-links' );
+	add_theme_support( 'automatic-feed-links' );
+	
+	$defaults = array(
+		'default-image'          => get_template_directory_uri() . '/img/antinous.jpeg',
+		'width'                  => 1424,
+		'height'                 => 480,
+	);
+	add_theme_support( 'custom-header', $defaults );
 }
 
  add_action('after_setup_theme', 'symposium_config');
