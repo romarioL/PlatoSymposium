@@ -30,6 +30,7 @@ function symposium_config(){
 		'default-image'          => '',
 	);
 	add_theme_support( 'custom-background', $defaults );
+    add_theme_support( 'automatic-feed-links' );
 }
 
  add_action('after_setup_theme', 'symposium_config');
