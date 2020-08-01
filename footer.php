@@ -10,7 +10,7 @@
 	 	</div>
 	</div>
 	<div class="copyright">
-		<h6><?php echo get_theme_mod('sec_copyright');?></h6>
+		<h6><?php echo esc_html(get_theme_mod('sec_copyright'));?></h6>
 	</div> 
   </body>
 </html>
