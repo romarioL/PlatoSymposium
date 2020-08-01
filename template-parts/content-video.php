@@ -1,4 +1,4 @@
-<article class="col-lg-12 article">
+<article class="col-lg-12 article" <?php post_class();?>>
 		<a href="<?php the_permalink();?>" class="link-article"><h6 class="article-title"><?php the_title(); ?></h6></a>
 		<hr>
 		<p><?php  the_content();?></p>
