@@ -4,7 +4,7 @@ require_once(dirname(__FILE__) . '/inc/class-tgm-plugin-activation.php');
 require_once(dirname(__FILE__) . '/inc/required-plugins.php');
 require_once(dirname(__FILE__) . '/inc/customizer.php');
 
-
+if ( ! isset( $content_width ) ) $content_width = 900;
 
 
 function load_scripts(){
