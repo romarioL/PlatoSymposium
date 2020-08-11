@@ -346,7 +346,7 @@ a img.aligncenter {
     margin-right: auto;
 }
 
-.wp-caption {
+.wp-caption, .gallery-caption {
     background: #fff;
     border: 1px solid #f0f0f0;
     max-width: 96%; /* Image does not overflow the content area */
@@ -414,6 +414,9 @@ a img.aligncenter {
 	/* Above WP toolbar. */
 }
 
+.bypostauthor {
+	background-color: none;
+}
 
 
 
